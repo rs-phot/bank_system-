@@ -1,4 +1,5 @@
-package banking;
+package banking.model;
+
 
 public class CheckingAccount extends Account {
 
