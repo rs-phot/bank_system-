@@ -8,16 +8,16 @@ public class App {
 
     public static void main(String[] args) {
 
-   
+         
         AuthService authService = new AuthService();
         Session session = new Session();
 
         
-        User user = new User("ahmed", "1234", "CUSTOMER");
+        User user = new User("RAYAN", "1234", "CUSTOMER");
         authService.register(user);
 
      
-        User loggedUser = authService.login("ahmed", "1234");
+        User loggedUser = authService.login("RAYAN", "1234");
 
         if (loggedUser != null) {
             session.login(loggedUser);
