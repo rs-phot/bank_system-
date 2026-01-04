@@ -10,6 +10,11 @@ public abstract class Account {
         this.balance = 0.0;
     }
 
+    public String getAccountNumber() {
+    return accountNumber;
+}
+
+
     public void deposit(double amount) {
         balance += amount;
     }
