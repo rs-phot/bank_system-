@@ -17,4 +17,7 @@ public class CheckingAccount extends Account {
             balance -= total;
         }
     }
+
+
+    
 }
