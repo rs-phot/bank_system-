@@ -2,7 +2,7 @@ package banking.service;
 import banking.model.Account;
 import banking.model.Transaction;
 import java.util.Date;
-import banking.service.Transferable;
+
 
 public class ATMService implements Transferable {
     public void deposit(Account account, double amount) {
